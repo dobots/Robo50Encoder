@@ -1,4 +1,6 @@
+Robo50Encoder
+=============
 
+Arduino code handling robot's encoders
 
-
-Copyright: Remco Tukker (2013)
+Copyright: Dominik Egger (2013)
