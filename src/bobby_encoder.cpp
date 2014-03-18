@@ -155,7 +155,7 @@ void HandleLeftMotorInterruptA() {
 
      //for working 2channel encoder
  	// Test transition; since the interrupt will only fire on 'rising' we don't need to read pin A
- 	_LeftEncoderBSet = analogRead(c_LeftEncoderPinB) < 512 ? false : true;   // read the input pin
+ 	_LeftEncoderBSet = analogRead(c_LeftEncoderPinB) < 750 ? false : true;   // read the input pin
 
  	// and adjust counter + if A leads B
  	#ifdef LeftEncoderIsReversed
